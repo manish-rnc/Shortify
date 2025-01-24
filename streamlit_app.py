@@ -3,7 +3,7 @@ import requests
 
 # Define the Flask backend API URL
 # Update this with your deployed backend URL when in production
-BASE_URL = "http://localhost:5000/api"
+BASE_URL = "https://shortify-c0yd.onrender.com/api"
 
 # Streamlit App Configuration
 st.set_page_config(page_title="Shortify", page_icon="🔗", layout="centered")
