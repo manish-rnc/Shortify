@@ -65,10 +65,10 @@ if st.button("Get Analytics"):
             st.write(f"**Created At**: {analytics['created_at']}")
         else:
             # Handle errors from the backend
-            st.error("❌ Error: Short URL ID not found.")
+            st.error("Error: Short URL ID not found.")
     else:
         # Handle empty input
-        st.warning("⚠️ Please enter a valid Short URL ID.")
+        st.warning("Please enter a valid Short URL ID.")
 
 # Footer Section
 st.divider()
